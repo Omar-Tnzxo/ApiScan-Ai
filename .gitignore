@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tauri and Rust
+src-tauri/target/
+src-tauri/Cargo.lock
+# Ignore the generated tauri executable/bundle outputs if placed elsewhere
+# We keep Cargo.lock if you want reproducible builds but typically for a library we ignore, for a binary we keep it. I'll keep Cargo.lock tracked actually. I will just ignore `src-tauri/target/`.
